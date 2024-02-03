@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Infrastructure.Data.Migrations
+namespace Infrastructure.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240203162225_InitialCreate")]
+    [Migration("20240203191430_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -63,6 +63,10 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("ProductBrands");
@@ -73,6 +77,10 @@ namespace Infrastructure.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

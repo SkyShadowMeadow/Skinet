@@ -1,7 +1,10 @@
+using System.Diagnostics.Contracts;
+
 namespace Core.Entities
 {
-    public class ProductType :BaseEntity
+    public class ProductType 
     {
-        
+        public int Id {get; set;}
+        public string Name {get;set;}
     }
 }
