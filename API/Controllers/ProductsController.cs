@@ -1,6 +1,7 @@
 using API.Data;
 using Core.Entities;
 using Core.interfaces;
+using Core.Specifications;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -27,7 +28,8 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _productRepository.GetList();
+            var spec = new ProductWithTypesAndBrandsSpecification();
+            var products = await _productRepository.ListAsync(spec);
             return Ok(products);
         }
 
@@ -35,7 +37,8 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            return await _productRepository.GetById(id);
+             var spec = new ProductWithTypesAndBrandsSpecification(id);
+            return await _productRepository.GetEntityWithSpec(spec);
         }
 
         
