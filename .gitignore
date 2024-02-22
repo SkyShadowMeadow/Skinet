@@ -78,3 +78,9 @@ yarn.lock
 /*.css.map
 /*.d.ts
 /*.metadata.json
+*.angular/
+.angular/cache/*
+client/.angular/cache/15.2.10/angular-webpack/594ad4610ba19948225814859df6c077f8da413c/0.pack
+client/.angular/cache/15.2.10/angular-webpack/1ab7ab95d5fb61a898cf271e9623f9698ba56550/2.pack
+client/.angular/cache/15.2.10/angular-webpack/d0b87e5a84efd5b9e3889d95804e1ff8cd4957ea/0.pack
+client/.angular/cache/15.2.10/angular-webpack/14ffcfabbbad5d851cbfc6b16a855b4c172368b7/0.pack
