@@ -7,7 +7,7 @@ import { BreadcrumbService } from 'xng-breadcrumb';
   styleUrls: ['./section-header.component.scss']
 })
 export class SectionHeaderComponent {
-  constructor (public bcSerivice: BreadcrumbService){
+  constructor (public bcService: BreadcrumbService){
   }
 
 }
