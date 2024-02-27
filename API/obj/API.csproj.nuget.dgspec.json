@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj": {
+    "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -163,8 +163,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj"
+              "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj"
               }
             }
           }

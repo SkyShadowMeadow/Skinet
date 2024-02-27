@@ -1048,11 +1048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gebruiker\\Skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Gebruiker\\skinet\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Gebruiker\\Skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Gebruiker\\skinet\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gebruiker\\Skinet\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Gebruiker\\skinet\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1067,8 +1067,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Gebruiker\\Skinet\\Core\\Core.csproj"
+            "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Gebruiker\\skinet\\Core\\Core.csproj"
             }
           }
         }
